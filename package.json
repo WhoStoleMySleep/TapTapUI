@@ -1,6 +1,6 @@
 {
   "name": "novo-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Konstantin Naumenko <98680950+WhoStoleMySleep@users.noreply.github.com>",
   "license": "MIT",
   "private": true,
@@ -15,7 +15,9 @@
     "sb": "storybook dev -p 6006",
     "build-sb": "storybook build",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "dryrelease": "standard-version --dry-run",
+    "release": "standard-version -a"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.6.1",
@@ -46,6 +48,7 @@
     "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.77.8",
     "sass-loader": "^14.2.1",
+    "standard-version": "^9.5.0",
     "storybook": "^8.2.5",
     "ts-jest": "^29.2.3",
     "tslib": "^2.6.3",
