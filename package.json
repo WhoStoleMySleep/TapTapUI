@@ -1,0 +1,59 @@
+{
+  "name": "novo-ui",
+  "version": "1.0.0",
+  "author": "Konstantin Naumenko <98680950+WhoStoleMySleep@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "sb": "storybook dev -p 6006",
+    "build-sb": "storybook build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^1.6.1",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-essentials": "^8.2.5",
+    "@storybook/addon-interactions": "^8.2.5",
+    "@storybook/addon-links": "^8.2.5",
+    "@storybook/addon-onboarding": "^8.2.5",
+    "@storybook/addon-styling-webpack": "^1.0.0",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.4",
+    "@storybook/blocks": "^8.2.5",
+    "@storybook/react": "^8.2.5",
+    "@storybook/react-webpack5": "^8.2.5",
+    "@storybook/test": "^8.2.5",
+    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
+    "@types/react": "^18.3.3",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.39",
+    "rollup": "^4.19.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "storybook": "^8.2.5",
+    "ts-jest": "^29.2.3",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3",
+    "typescript-plugin-css-modules": "^5.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  }
+}
