@@ -58,7 +58,7 @@
     "typescript": "^5.5.3",
     "typescript-plugin-css-modules": "^5.1.0"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   }
