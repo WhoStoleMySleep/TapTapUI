@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../../src/components/Text/Text.tsx","../../src/components/Title/Title.tsx"],"sourcesContent":[null,null],"names":["Text","children","_jsx","className","styles","Title"],"mappings":"8EAIaA,EAIa,EAAGC,cAC3BC,EAAG,IAAA,CAAAC,UAAWC,EAAcH,SAAAA,4CCLjBI,EAIa,EAAGJ,cAC3BC,EAAI,KAAA,CAAAC,UAAWC,EAAeH,SAAAA"}
