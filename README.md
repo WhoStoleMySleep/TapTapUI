@@ -74,6 +74,13 @@ export const Home = () => (
 Check out the [NovoUI website](https://google.com) 
 to see what's available in NovoUI
 
+## Future scope
+
+* README localization
+* Change basic type to standard (No styles)
+* Validation of SEO
+* Сonfiguration file
+
 ### Versioning Policy
 
 The proposals in this repository are versioned to make it easy to track changes
