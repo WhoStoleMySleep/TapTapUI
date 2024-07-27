@@ -26,6 +26,7 @@ const config: {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
+    "storybook-addon-remix-react-router",
     {
       name: "@storybook/addon-styling-webpack",
       options: {

@@ -1,0 +1,83 @@
+:root {
+  --color-primary: #2f3437;
+  --color-button-red: #e34e4e;
+  --color-button-blue: #1976d2;
+
+  --bg-color-button-primary: #474c50;
+  --bg-color-button-red: #E149771A;
+  --bg-color-button-blue: #d4e8fb;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-primary: #ffffffe6;
+    --color-button-red: #e34e4e;
+    --color-button-blue: #1976d2;
+
+    --bg-color-button-primary: #474c50;
+    --bg-color-button-red: #E149771A;
+    --bg-color-button-blue: #d4e8fb;
+  }
+}
+
+.link-to {
+  padding: .5em 2px 0 2px;
+  margin: 0 0 .5em 0;
+  font-weight: 500;
+  box-sizing: border-box;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Noto Sans, sans-serif;
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &--primary {
+    border-bottom: 1px solid var(--color-primary);
+    font-size: 16px;
+  }
+
+  &--button {
+    padding: 12px;
+    border-radius: 3px;
+    line-height: 14px;
+    transition-duration: .3s;
+
+
+    &:hover,
+    &--active,
+    &--primary:hover,
+    &--primary--active {
+      background-color: var(--bg-color-button-primary);
+
+      .link-to__text {
+        color: #fff;
+      }
+    }
+
+    // .link-to--button--* styles start
+    &--red {
+      &:hover,
+      &--active {
+        background-color: var(--bg-color-button-red);
+
+        .link-to__text {
+          color: var(--color-button-red);
+        }
+      }
+    }
+
+    &--blue {
+      &:hover,
+      &--active {
+        background-color: var(--bg-color-button-blue);
+
+        .link-to__text {
+          color: var(--color-button-blue);
+        }
+      }
+    }
+    // .link-to--button--* styles end
+  }
+
+  &__text {
+    transition-duration: .3s;
+  }
+}
