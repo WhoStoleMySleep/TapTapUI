@@ -17,7 +17,6 @@ export const Standard: Story = {
     children: children,
     to: "/",
     type: "standard",
-    active: false,
   },
 };
 

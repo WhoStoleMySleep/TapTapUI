@@ -9,4 +9,5 @@ export interface LinkToProps {
     | "button--red"
     | "button--blue";
   active?: boolean;
+  [key: string]: any;
 }
