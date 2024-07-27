@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.6.0) (2024-08-01)
+
+
+### Features
+
+* Create "Input" component ([b58a5f0](https://github.com/WhoStoleMySleep/NovoUi/commit/b58a5f08355d0e588e26e0ca20fb9679e6292277))
+
 ### [1.5.1](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.5.1) (2024-08-01)
 
 ## [1.5.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.5.0) (2024-08-01)
