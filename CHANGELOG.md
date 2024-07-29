@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.4.0) (2024-07-29)
+
+
+### Features
+
+* Create "LinkTo" component ([d24bf73](https://github.com/WhoStoleMySleep/NovoUi/commit/d24bf731667633cd6b33520fe3d32a05b0ac44a9))
+
 ## [1.3.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.0.2...v1.3.0) (2024-07-23)
 
 
