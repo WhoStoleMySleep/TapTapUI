@@ -14,9 +14,17 @@ describe("Component: Text", () => {
     expect(getByText(children)).toBeTruthy();
   });
 
-  it("Snapshot", () => {
-    const text: any = render(<Text>text</Text>);
+  describe("UI Snapshots", () => {
+    it("Snapshot: Standard", () => {
+      const text: any = render(<Text UI={"standard"}>{children}</Text>);
 
-    expect(text).toMatchSnapshot();
+      expect(text).toMatchSnapshot();
+    });
+
+    it("Snapshot: Primary", () => {
+      const text: any = render(<Text UI={"primary"}>{children}</Text>);
+
+      expect(text).toMatchSnapshot();
+    });
   });
 });
