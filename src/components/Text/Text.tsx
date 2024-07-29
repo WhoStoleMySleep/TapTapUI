@@ -1,11 +1,35 @@
 import React from "react";
 import styles from "./Text.module.scss";
+import { TextProps } from "./Text.types";
 
-/** Интерактивная карточка */
-export const Text: ({
+export const Text = ({
   children,
-}: {
-  children: string;
-}) => React.JSX.Element = ({ children }) => (
-  <p className={styles.text}>{children}</p>
-);
+  UI,
+  className,
+  noDarkMode,
+  ...attributes
+}: TextProps) => {
+  return (
+    <>
+      {UI === "standard" ? (
+        <p className={className} {...attributes}>
+          {children}
+        </p>
+      ) : (
+        <p
+          className={styles.text + " " + className}
+          {...attributes}
+          data-dark-mode={!noDarkMode}
+        >
+          {children}
+        </p>
+      )}
+    </>
+  );
+};
+
+Text.defaultProps = {
+  UI: "standard",
+  className: "",
+  noDarkMode: false,
+};

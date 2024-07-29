@@ -1,4 +1,6 @@
 export interface TextProps {
-  /** Содержимое **/
   children: string;
+  UI?: "standard" | "primary";
+  className?: string;
+  noDarkMode?: boolean;
 }
