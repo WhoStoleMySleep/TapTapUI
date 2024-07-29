@@ -25,7 +25,7 @@ export const LinkTo = ({
   return (
     <>
       {!acceptableUIs.find((ui) => ui === UI) || UI === "standard" ? (
-        <Link to={to} className={className ?? ""} {...attributes}>
+        <Link to={to} className={className} {...attributes}>
           {children}
         </Link>
       ) : (
@@ -33,9 +33,9 @@ export const LinkTo = ({
           className={classNames(
             className,
             styles["link-to"],
-            styles[`link-to--${UI.split("--")[0] ?? "primary"}`],
+            styles[`link-to--${UI.split("--")[0]}`],
           )}
-          data-dark-mode={!noDarkMode ?? false}
+          data-dark-mode={!noDarkMode}
           data-theme={UI}
           data-active={active}
           to={to}

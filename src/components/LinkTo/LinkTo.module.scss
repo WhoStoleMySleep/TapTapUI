@@ -7,15 +7,15 @@
   font-weight: 500;
   box-sizing: border-box;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Noto Sans, sans-serif;
-  color: var(--color-primary);
+  color: var(--color-primary-variable);
   text-decoration: none;
 
-  &[data-dark-mode='true'] {
-    @include dark(true);
+  &[data-dark-mode='false'] {
+    color: var(--color-primary);
   }
 
   &--primary {
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary-variable);
     font-size: 16px;
   }
 
@@ -25,11 +25,10 @@
     line-height: 14px;
     transition-duration: .3s;
 
-
     &:hover,
     &[data-active="true"],
     &[data-theme="button--primary"]:hover {
-      background-color: var(--bg-color-button-primary);
+      background-color: var(--bg-color-button-primary-variable);
 
       .link-to__text {
         color: #fff;
@@ -40,10 +39,10 @@
     &[data-theme="button--red"] {
       &:hover,
       &[data-active="true"] {
-        background-color: var(--bg-color-button-red);
+        background-color: var(--bg-color-button-red-variable);
 
         .link-to__text {
-          color: var(--color-button-red);
+          color: var(--color-button-red-variable);
         }
       }
     }
@@ -51,10 +50,10 @@
     &[data-theme="button--blue"] {
       &:hover,
       &[data-active="true"] {
-        background-color: var(--bg-color-button-blue);
+        background-color: var(--bg-color-button-blue-variable);
 
         .link-to__text {
-          color: var(--color-button-blue);
+          color: var(--color-button-blue-variable);
         }
       }
     }

@@ -1,6 +1,5 @@
 import type { StoryObj } from "@storybook/react";
 import { LinkTo } from "./LinkTo";
-import { LinkToProps } from "./LinkTo.types";
 
 const meta: any = {
   title: "Components/LinkTo",
@@ -8,12 +7,11 @@ const meta: any = {
 };
 
 export default meta;
-
 type Story = StoryObj<typeof LinkTo>;
 
 const children = "LinkTo";
 
-export const Standard: LinkToProps = {
+export const Standard: Story = {
   args: {
     children: children,
     to: "/",
