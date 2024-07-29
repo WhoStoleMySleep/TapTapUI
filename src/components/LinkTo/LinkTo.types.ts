@@ -1,13 +1,14 @@
 export interface LinkToProps {
   children: string;
   to: string;
-  type?:
+  UI?:
     | "standard"
     | "primary"
     | "button"
     | "button--primary"
     | "button--red"
     | "button--blue";
+  noDarkMode?: boolean;
   active?: boolean;
-  [key: string]: any;
+  className?: string;
 }

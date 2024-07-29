@@ -4,38 +4,55 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import { LinkToProps } from "./LinkTo.types";
 
-/** Интерактивная карточка */
-export const LinkTo: ({
+export const LinkTo = ({
   children,
   to,
-  type,
+  UI,
+  noDarkMode,
   active,
+  className,
   ...attributes
-}: LinkToProps) => React.JSX.Element = ({
-  children,
-  to,
-  type,
-  active,
-  ...attributes
-}) => (
-  <>
-    {type === "standard" ? (
-      <Link to={to} {...attributes}>
-        {children}
-      </Link>
-    ) : (
-      <Link
-        className={classNames(
-          styles["link-to"],
-          styles[`link-to--${type.split("--")[0] ?? "primary"}`],
-          styles[`link-to--${type ?? "primary"}`],
-          active ? styles[`link-to--${type ?? "primary"}--active`] : "",
-        )}
-        to={to}
-        {...attributes}
-      >
-        <span className={classNames(styles["link-to__text"])}>{children}</span>
-      </Link>
-    )}
-  </>
-);
+}: LinkToProps): React.JSX.Element => {
+  const acceptableUIs = [
+    "standard",
+    "primary",
+    "button",
+    "button--primary",
+    "button--red",
+    "button--blue",
+  ];
+
+  return (
+    <>
+      {!acceptableUIs.find((ui) => ui === UI) || UI === "standard" ? (
+        <Link to={to} className={className ?? ""} {...attributes}>
+          {children}
+        </Link>
+      ) : (
+        <Link
+          className={classNames(
+            className,
+            styles["link-to"],
+            styles[`link-to--${UI.split("--")[0] ?? "primary"}`],
+          )}
+          data-dark-mode={!noDarkMode ?? false}
+          data-theme={UI}
+          data-active={active}
+          to={to}
+          {...attributes}
+        >
+          <span className={classNames(styles["link-to__text"])}>
+            {children}
+          </span>
+        </Link>
+      )}
+    </>
+  );
+};
+
+LinkTo.defaultProps = {
+  UI: "standard",
+  noDarkMode: false,
+  active: false,
+  className: "",
+};

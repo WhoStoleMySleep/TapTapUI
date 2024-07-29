@@ -1,5 +1,6 @@
 import type { StoryObj } from "@storybook/react";
 import { LinkTo } from "./LinkTo";
+import { LinkToProps } from "./LinkTo.types";
 
 const meta: any = {
   title: "Components/LinkTo",
@@ -12,11 +13,14 @@ type Story = StoryObj<typeof LinkTo>;
 
 const children = "LinkTo";
 
-export const Standard: Story = {
+export const Standard: LinkToProps = {
   args: {
     children: children,
     to: "/",
-    type: "standard",
+    UI: "standard",
+    noDarkMode: false,
+    active: false,
+    className: "className",
   },
 };
 
@@ -24,8 +28,10 @@ export const Primary: Story = {
   args: {
     children: children,
     to: "/",
-    type: "primary",
+    UI: "primary",
+    noDarkMode: false,
     active: false,
+    className: "className",
   },
 };
 
@@ -33,8 +39,10 @@ export const Button: Story = {
   args: {
     children: children,
     to: "/",
-    type: "button",
+    UI: "button",
+    noDarkMode: false,
     active: false,
+    className: "className",
   },
 };
 
@@ -42,8 +50,10 @@ export const ButtonPrimary: Story = {
   args: {
     children: children,
     to: "/",
-    type: "button--primary",
+    UI: "button--primary",
+    noDarkMode: false,
     active: false,
+    className: "className",
   },
 };
 
@@ -51,8 +61,10 @@ export const ButtonRed: Story = {
   args: {
     children: children,
     to: "/",
-    type: "button--red",
+    UI: "button--red",
+    noDarkMode: false,
     active: false,
+    className: "className",
   },
 };
 
@@ -60,7 +72,9 @@ export const ButtonBlue: Story = {
   args: {
     children: children,
     to: "/",
-    type: "button--blue",
+    UI: "button--blue",
+    noDarkMode: false,
     active: false,
+    className: "className",
   },
 };
