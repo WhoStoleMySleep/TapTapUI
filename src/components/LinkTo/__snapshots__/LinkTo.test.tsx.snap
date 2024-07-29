@@ -1,12 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 1`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -18,7 +21,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -30,7 +36,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button link-to--button--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -42,7 +51,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary link-to--button--primary--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -55,7 +67,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button"
+      class="link-to link-to--button"
+      data-active="false"
+      data-dark-mode="true"
+      data-theme="button"
       href="/"
     >
       <span
@@ -119,13 +134,16 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 2`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 2`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -137,7 +155,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -149,7 +170,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button link-to--button--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -161,7 +185,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary link-to--button--primary--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -174,7 +201,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--primary"
+      class="link-to link-to--button"
+      data-active="false"
+      data-dark-mode="true"
+      data-theme="button--primary"
       href="/"
     >
       <span
@@ -238,13 +268,16 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 3`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 3`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -256,7 +289,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -268,7 +304,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button link-to--button--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -280,7 +319,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary link-to--button--primary--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -293,7 +335,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button link-to--button--active"
+      class="link-to link-to--button"
+      data-active="true"
+      data-dark-mode="true"
+      data-theme="button"
       href="/"
     >
       <span
@@ -357,13 +402,16 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 4`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Button And ButtonPrimary & Active Button And Active ButtonPrimary 4`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -375,7 +423,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -387,7 +438,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button link-to--button--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button"
         href="/"
       >
         <span
@@ -399,7 +453,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--primary link-to--button--primary--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--primary"
         href="/"
       >
         <span
@@ -412,7 +469,10 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--primary link-to--button--primary--active"
+      class="link-to link-to--button"
+      data-active="true"
+      data-dark-mode="true"
+      data-theme="button--primary"
       href="/"
     >
       <span
@@ -476,13 +536,16 @@ exports[`Component: LinkTo Snapshot: Button And ButtonPrimary & Active Button An
 }
 `;
 
-exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 1`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: ButtonBlue & Active ButtonBlue 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button--blue"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--blue"
         href="/"
       >
         <span
@@ -494,7 +557,10 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 1`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--blue link-to--button--blue--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--blue"
         href="/"
       >
         <span
@@ -507,7 +573,10 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 1`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--blue"
+      class="link-to link-to--button"
+      data-active="false"
+      data-dark-mode="true"
+      data-theme="button--blue"
       href="/"
     >
       <span
@@ -571,13 +640,16 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 1`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 2`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: ButtonBlue & Active ButtonBlue 2`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button--blue"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--blue"
         href="/"
       >
         <span
@@ -589,7 +661,10 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 2`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--blue link-to--button--blue--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--blue"
         href="/"
       >
         <span
@@ -602,7 +677,10 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 2`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--blue link-to--button--blue--active"
+      class="link-to link-to--button"
+      data-active="true"
+      data-dark-mode="true"
+      data-theme="button--blue"
       href="/"
     >
       <span
@@ -666,13 +744,16 @@ exports[`Component: LinkTo Snapshot: ButtonBlue & Active ButtonBlue 2`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 1`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: ButtonRed & Active ButtonRed 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button--red"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--red"
         href="/"
       >
         <span
@@ -684,7 +765,10 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 1`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--red link-to--button--red--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--red"
         href="/"
       >
         <span
@@ -697,7 +781,10 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 1`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--red"
+      class="link-to link-to--button"
+      data-active="false"
+      data-dark-mode="true"
+      data-theme="button--red"
       href="/"
     >
       <span
@@ -761,13 +848,16 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 1`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 2`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: ButtonRed & Active ButtonRed 2`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--button link-to--button--red"
+        class="link-to link-to--button"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="button--red"
         href="/"
       >
         <span
@@ -779,7 +869,10 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 2`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--button link-to--button--red link-to--button--red--active"
+        class="link-to link-to--button"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="button--red"
         href="/"
       >
         <span
@@ -792,7 +885,10 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 2`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--button link-to--button--red link-to--button--red--active"
+      class="link-to link-to--button"
+      data-active="true"
+      data-dark-mode="true"
+      data-theme="button--red"
       href="/"
     >
       <span
@@ -856,13 +952,16 @@ exports[`Component: LinkTo Snapshot: ButtonRed & Active ButtonRed 2`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Primary & Active Primary 1`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Primary & Active Primary 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--primary link-to--primary"
+        class="link-to link-to--primary"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="primary"
         href="/"
       >
         <span
@@ -874,7 +973,10 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 1`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--primary link-to--primary link-to--primary--active"
+        class="link-to link-to--primary"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="primary"
         href="/"
       >
         <span
@@ -887,7 +989,10 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 1`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--primary link-to--primary"
+      class="link-to link-to--primary"
+      data-active="false"
+      data-dark-mode="true"
+      data-theme="primary"
       href="/"
     >
       <span
@@ -951,13 +1056,16 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 1`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Primary & Active Primary 2`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Primary & Active Primary 2`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <a
-        class="link-to link-to--primary link-to--primary"
+        class="link-to link-to--primary"
+        data-active="false"
+        data-dark-mode="true"
+        data-theme="primary"
         href="/"
       >
         <span
@@ -969,7 +1077,10 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 2`] = `
     </div>
     <div>
       <a
-        class="link-to link-to--primary link-to--primary link-to--primary--active"
+        class="link-to link-to--primary"
+        data-active="true"
+        data-dark-mode="true"
+        data-theme="primary"
         href="/"
       >
         <span
@@ -982,7 +1093,10 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 2`] = `
   </body>,
   "container": <div>
     <a
-      class="link-to link-to--primary link-to--primary link-to--primary--active"
+      class="link-to link-to--primary"
+      data-active="true"
+      data-dark-mode="true"
+      data-theme="primary"
       href="/"
     >
       <span
@@ -1046,7 +1160,7 @@ exports[`Component: LinkTo Snapshot: Primary & Active Primary 2`] = `
 }
 `;
 
-exports[`Component: LinkTo Snapshot: Standard 1`] = `
+exports[`Component: LinkTo Occupancy And UI Snapshots Snapshot: Standard 1`] = `
 {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1055,11 +1169,7 @@ exports[`Component: LinkTo Snapshot: Standard 1`] = `
         class=""
         href="/"
       >
-        <span
-          class="link-to__text"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </span>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </a>
     </div>
   </body>,
@@ -1068,11 +1178,7 @@ exports[`Component: LinkTo Snapshot: Standard 1`] = `
       class=""
       href="/"
     >
-      <span
-        class="link-to__text"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </span>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </a>
   </div>,
   "debug": [Function],

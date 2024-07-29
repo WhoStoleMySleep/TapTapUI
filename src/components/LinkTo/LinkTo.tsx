@@ -7,10 +7,10 @@ import { LinkToProps } from "./LinkTo.types";
 export const LinkTo = ({
   children,
   to,
-  UI,
-  noDarkMode,
-  active,
-  className,
+  UI = "standard",
+  noDarkMode = false,
+  active = false,
+  className = "",
   ...attributes
 }: LinkToProps): React.JSX.Element => {
   const acceptableUIs = [
@@ -48,11 +48,4 @@ export const LinkTo = ({
       )}
     </>
   );
-};
-
-LinkTo.defaultProps = {
-  UI: "standard",
-  noDarkMode: false,
-  active: false,
-  className: "",
 };
