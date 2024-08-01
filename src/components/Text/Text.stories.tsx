@@ -7,7 +7,6 @@ const meta: any = {
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Text>;
 
 const children =
