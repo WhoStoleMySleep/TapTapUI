@@ -71,8 +71,14 @@ export const Home = () => (
 
 ## Learn NovoUI
 
-Check out the [NovoUI website](https://google.com) 
+Check out the [NovoUI website](https://novo-ui.vercel.app/) 
 to see what's available in NovoUI
+
+## Future scope
+
+* README localization
+* Validation of SEO
+* Configuration file
 
 ### Versioning Policy
 
