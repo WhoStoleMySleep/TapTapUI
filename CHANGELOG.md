@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.6.0) (2024-08-01)
+
+
+### Features
+
+* Create "Input" component ([b58a5f0](https://github.com/WhoStoleMySleep/NovoUi/commit/b58a5f08355d0e588e26e0ca20fb9679e6292277))
+* **Input:** Add displaying "children" of props as "value" of input ([bd6dd41](https://github.com/WhoStoleMySleep/NovoUi/commit/bd6dd41eabeb2b9285a7ec61883fc95a5e383e4f))
+
 ### [1.5.1](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.5.1) (2024-08-01)
 
 ## [1.5.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.5.0) (2024-08-01)
