@@ -1,8 +1,7 @@
 export interface InputProps {
-  /** Содержимое **/
   children: string;
-  type?: "text";
+  type?: string;
+  className?: string;
   UI?: "standard" | "primary";
-  className?: string
-  [key: string]: any;
+  noDarkMode?: boolean;
 }
