@@ -5,10 +5,10 @@ import { TitleProps } from "./Title.types";
 /** Интерактивная карточка */
 export const Title = ({
   children,
-  UI,
-  Level,
-  className,
-  noDarkMode,
+  UI = "standard",
+  Level = "h1",
+  className = "",
+  noDarkMode = false,
   ...attributes
 }: TitleProps) => {
   const acceptableUI = ["standard", "primary"];
@@ -30,11 +30,4 @@ export const Title = ({
       )}
     </>
   );
-};
-
-Title.defaultProps = {
-  UI: "standard",
-  Level: "h1",
-  className: "",
-  noDarkMode: false,
 };
