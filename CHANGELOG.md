@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.5.0) (2024-08-01)
+
+
+### Features
+
+* **Title:** Improve styles ([40f2f23](https://github.com/WhoStoleMySleep/NovoUi/commit/40f2f2350099ebff72a5577807ded7b2eb79e1cb))
+
 ### [1.4.1](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.4.1) (2024-08-01)
 
 ## [1.4.0](https://github.com/WhoStoleMySleep/NovoUi/compare/v1.3.0...v1.4.0) (2024-07-29)
