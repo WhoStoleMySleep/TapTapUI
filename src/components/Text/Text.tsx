@@ -4,9 +4,9 @@ import { TextProps } from "./Text.types";
 
 export const Text = ({
   children,
-  UI,
-  className,
-  noDarkMode,
+  UI = "standard",
+  className = "",
+  noDarkMode = false,
   ...attributes
 }: TextProps) => {
   return (
@@ -26,10 +26,4 @@ export const Text = ({
       )}
     </>
   );
-};
-
-Text.defaultProps = {
-  UI: "standard",
-  className: "",
-  noDarkMode: false,
 };
