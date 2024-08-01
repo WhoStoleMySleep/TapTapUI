@@ -7,7 +7,6 @@ const meta: any = {
 };
 
 export default meta;
-
 type Story = StoryObj<typeof Input>;
 
 const children = "Input";
@@ -17,8 +16,7 @@ export const Standard: Story = {
     children: children,
     type: "text",
     UI: "standard",
-    placeholder: "Placeholder",
-    className: "text"
+    className: "text",
   },
 };
 
@@ -27,7 +25,7 @@ export const Primary: Story = {
     children: children,
     type: "text",
     UI: "primary",
-    placeholder: "Placeholder",
-    className: "text"
+    className: "text",
+    noDarkMode: false,
   },
 };
