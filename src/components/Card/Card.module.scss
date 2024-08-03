@@ -1,0 +1,64 @@
+@import "src/assets/styles/themes/light.scss";
+@import "src/assets/styles/themes/dark.scss";
+@import "src/assets/styles/global.scss";
+
+.blog-card {
+	border-radius: 16px;
+	transition-duration: 150ms;
+	width: 100%;
+	height: 100%;
+	display: block;
+  padding: .5em 2px 0 2px;
+  margin: 0 0 .5em 0;
+
+  * {
+    text-decoration: none;
+  }
+
+	&:hover {
+    background: var(--bgc);
+	}
+
+	&__head-image {
+		object-fit:cover;
+		width: 100%;
+		height: 190px;
+		border-radius: 16px;
+	}
+
+	&__text-wrapper {
+		padding: 10px;
+	}
+
+	&__theme-name,
+	&__concise-content,
+	&__date-publish,
+	&__tag-list {
+		padding: 4px 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Noto Sans, sans-serif !important;
+    color: var(--color-primary-variable) !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+	}
+
+	&__concise-content, 
+	&__date-publish,
+	&__tag p {
+		font-weight: 400;
+	}
+
+	&__tag-list {
+		display: flex;
+		gap: 6px;
+	}
+
+	&__tag {
+		border-radius: 3px;
+    list-style-type: none;
+	}
+
+	&__tag-name {
+		font-size: 12px;
+		padding: 0 6px;
+	}
+}
