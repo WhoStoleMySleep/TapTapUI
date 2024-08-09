@@ -9034,9 +9034,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"novo-ui@workspace:.":
+"taptap-ui@workspace:.":
   version: 0.0.0-use.local
-  resolution: "novo-ui@workspace:."
+  resolution: "taptap-ui@workspace:."
   dependencies:
     "@chromatic-com/storybook": ^1.6.1
     "@rollup/plugin-commonjs": ^26.0.1

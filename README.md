@@ -1,29 +1,29 @@
-<h1><img width="200px" alt="NovoUI" src="https://github.com/user-attachments/assets/3435b43e-f5d4-41bb-83a8-9b69a08fa816" /></h1>
+<h1>TapTapUI</h1>
 
-**NovoUi fast and high-quality interfaces**. 
-NovoUI offers fast creation of beautiful user interfaces
+**TapTapUI fast and high-quality interfaces**. 
+TapTapUI offers fast creation of beautiful user interfaces
 
 ```jsx
 import React from "react";
-import { Title } from "novo-ui";
+import { Title } from "taptap-ui";
 
 export const Home = () => (
   <Title>Title</Title>
 );
 ```
 
-# Install NovoUI
+# Install TapTapUI
 
-You can install NovoUI into your React project by downloading the package from [from GitHub].
+You can install TapTapUI into your React project by downloading the package from [from GitHub].
 
-[from GitHub]: https://github.com/WhoStoleMySleep/NovoUI/releases
+[from GitHub]: https://github.com/WhoStoleMySleep/TapTapUI/releases
 
-If you are using Node.js, you can also install NovoUI using [npm] by running the command
+If you are using Node.js, you can also install TapTapUI using [npm] by running the command
 
 [npm]: https://www.npmjs.com/
 
 ```
-npm install novo-ui
+npm install taptap-ui
 ```
 
 Or if you are using [yarn]
@@ -31,26 +31,26 @@ Or if you are using [yarn]
 [yarn]: https://yarnpkg.com/
 
 ```
-yarn add novo-ui
+yarn add taptap-ui
 ```
 
-After installing the NovoUI package, you need to add a style import 
+After installing the TapTapUI package, you need to add a style import 
 to your index.[j/t]sx
 
 ```jsx
-import 'novo-ui/dist/esm/index.css'
+import 'taptap-ui/dist/esm/index.css'
 ```
 
-## Using NovoUI
+## Using TapTapUI
 
-To use any NevoUI component, you just import it. And use it like normal components in React
+To use any TapTapUI component, you just import it. And use it like normal components in React
 
 #### Example:
 
 ```jsx
 // Any other component can take the place of Title
 import React from "react";
-import { Title, Text } from "novo-ui";
+import { Title, Text } from "taptap-ui";
 
 export const Home = () => (
     <div>
@@ -69,10 +69,10 @@ export const Home = () => (
 );
 ```
 
-## Learn NovoUI
+## Learn TapTapUI
 
-Check out the [NovoUI website](https://novo-ui.vercel.app/) 
-to see what's available in NovoUI
+Check out the [TapTapUI website](https://taptap-ui.vercel.app/) 
+to see what's available in TapTapUI
 
 ## Future scope
 
