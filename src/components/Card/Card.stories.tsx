@@ -17,6 +17,7 @@ export const Primary: Story = {
     headImage: '',
     altImage: '',
     themeName: ["name", 'asd'],
+    price: "200 руб",
     conciseContent: ['asd', 'dsa'],
     datePublish: 'asd',
     tags: ['asd', 'dsa'],

@@ -16,7 +16,13 @@ export interface CardProps {
   headImage: string;
   altImage: string;
   themeName: string[];
+  price: string,
   conciseContent: string[];
   datePublish: string;
   tags: string[];
+  button: {
+    text: string
+    link: string
+    UI: "button" | "standard" | "primary" | "button--primary" | "button--red" | "button--blue"
+  }
 }
